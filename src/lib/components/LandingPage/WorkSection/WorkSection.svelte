@@ -1,114 +1,28 @@
 <script>
-	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon/ExternalLinkIcon.svelte'
-	import TagList from '$lib/components/Common/TagList/TagList.svelte'
 	import SectionBlock from '../SectionBlock/SectionBlock.svelte'
+	import WorkSectionBlock from './WorkSectionBlock/WorkSectionBlock.svelte'
 </script>
 
 <SectionBlock id="my-work" title="My Work">
-	<div class="work-card">
-		<div class="flex-grow">
-			<h3>Something Something</h3>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo alias culpa quas dolores
-				corporis, delectus harum molestiae odit perferendis vero placeat ipsam corrupti
-				reprehenderit in optio quo aspernatur dignissimos amet?
-			</p>
-			<a href="#" target="_blank" class="block mb-6 text-lg font-bold"
-				>Live demo <ExternalLinkIcon className="-mt-1 text-sm" /></a
-			>
-			<TagList
-				tags={[
-					'Vue 3',
-					'Option API',
-					'Vue Router',
-					'Pinia',
-					'Option API',
-					'Vue Router',
-					'Pinia',
-					'Option API',
-					'Vue Router',
-					'Pinia'
-				]}
-			/>
-		</div>
-		<div class="basis-1/2 flex-none overflow-hidden">
-			<img src="https://placehold.co/600x400" class="object-contain" />
-		</div>
-	</div>
-	<div class="work-card">
-		<div class="flex-grow">
-			<h3>Something Something</h3>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo alias culpa quas dolores
-				corporis, delectus harum molestiae odit perferendis vero placeat ipsam corrupti
-				reprehenderit in optio quo aspernatur dignissimos amet?
-			</p>
-			<a href="#" target="_blank" class="block mb-6 text-lg font-bold"
-				>Live demo <ExternalLinkIcon className="-mt-1 text-sm" /></a
-			>
-			<TagList
-				tags={[
-					'Vue 3',
-					'Option API',
-					'Vue Router',
-					'Pinia',
-					'Option API',
-					'Vue Router',
-					'Pinia',
-					'Option API',
-					'Vue Router',
-					'Pinia'
-				]}
-			/>
-		</div>
-		<div class="basis-1/2 flex-none overflow-hidden">
-			<img src="https://placehold.co/600x400" class="object-contain" />
-		</div>
-	</div>
-	<div class="work-card">
-		<div class="flex-grow">
-			<h3>Something Something</h3>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo alias culpa quas dolores
-				corporis, delectus harum molestiae odit perferendis vero placeat ipsam corrupti
-				reprehenderit in optio quo aspernatur dignissimos amet?
-			</p>
-			<a href="#" target="_blank" class="block mb-6 text-lg font-bold"
-				>Live demo <ExternalLinkIcon className="-mt-1 text-sm" /></a
-			>
-			<TagList
-				tags={[
-					'Vue 3',
-					'Option API',
-					'Vue Router',
-					'Pinia',
-					'Option API',
-					'Vue Router',
-					'Pinia',
-					'Option API',
-					'Vue Router',
-					'Pinia'
-				]}
-			/>
-		</div>
-		<div class="basis-auto md:basis-1/2 flex-none overflow-hidden">
-			<img src="https://placehold.co/600x400" class="object-contain" />
-		</div>
-	</div>
+	<WorkSectionBlock
+		title="Weather Forecast App"
+		demoUrl="https://vue-weather-app-codementor.netlify.app/"
+		githubUrl="https://github.com/Sylphritz/weather-forecast-app"
+		imageUrl="/images/weather-app.jpg"
+		tags={['Vue.js', 'TypeScript', 'SCSS', 'TailwindCSS', 'Pinia', 'Vue Router']}
+	>
+		This is a weather forecast vanilla Vue.js mini application I made for educational purposes. This
+		project is written in TypeScript. It utilizes Pinia state management library for managing the
+		color mode and user's coordinates. The UI uses TailwindCSS classes and Font Awesome icons. As
+		for the forecast API, I use the open-source weather API Open Meteo.
+	</WorkSectionBlock>
+	<WorkSectionBlock
+		title="Pavee.dev Personal Site"
+		githubUrl="https://github.com/Sylphritz/pavee-dev-svelte"
+		imageUrl="/images/portfolio-site.jpg"
+		tags={['SvelteKit', 'TypeScript', 'SCSS', 'TailwindCSS', 'Vitest']}
+	>
+		It's this website! This personal site was made with SvelteKit, utilizing its ability to generate
+		static pages to reduce the load time. The source code is available on Github.
+	</WorkSectionBlock>
 </SectionBlock>
-
-<style lang="scss">
-	.work-card {
-		@apply relative py-6 mb-3 flex flex-col-reverse md:flex-row gap-6;
-
-		&::after {
-			@apply absolute left-1/2 -translate-x-1/2 bottom-0 h-1 -mb-px w-1/2 bg-gradient-to-r from-transparent via-red-500 to-transparent pointer-events-none;
-
-			content: '';
-		}
-
-		h3 {
-			@apply text-2xl lg:text-4xl;
-		}
-	}
-</style>
