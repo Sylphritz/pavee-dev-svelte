@@ -26,6 +26,8 @@
 				<img
 					src="/images/vuejs-cert.jpg"
 					class="object-contain w-full"
+					width="1000"
+					height="700"
 					alt="Official Vue.js Certification"
 				/>
 			</div>
