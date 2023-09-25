@@ -1,5 +1,5 @@
 <script>
-	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon/ExternalLinkIcon.svelte'
+	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon.svelte'
 </script>
 
 <div>

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import HeaderNavigation from './HeaderNavigation/HeaderNavigation.svelte'
+	import HeaderNavigation from './Header/HeaderNavigation.svelte'
 </script>
 
 <header class="lg:py-3 md:py-1 flex flex-row justify-between md:justify-start items-baseline gap-3">

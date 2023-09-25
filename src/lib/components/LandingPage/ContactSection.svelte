@@ -1,9 +1,9 @@
 <script lang="ts">
-	import GithubIcon from '$lib/components/Common/Icons/GithubIcon/GithubIcon.svelte'
-	import LinkedinIcon from '$lib/components/Common/Icons/LinkedinIcon/LinkedinIcon.svelte'
-	import MailIcon from '$lib/components/Common/Icons/MailIcon/MailIcon.svelte'
-	import TwitterXIcon from '$lib/components/Common/Icons/TwitterXIcon/TwitterXIcon.svelte'
-	import SectionBlock from '../SectionBlock/SectionBlock.svelte'
+	import GithubIcon from '$lib/components/Common/Icons/GithubIcon.svelte'
+	import LinkedinIcon from '$lib/components/Common/Icons/LinkedinIcon.svelte'
+	import MailIcon from '$lib/components/Common/Icons/MailIcon.svelte'
+	import TwitterXIcon from '$lib/components/Common/Icons/TwitterXIcon.svelte'
+	import SectionBlock from '$lib/components/LandingPage/SectionBlock.svelte'
 </script>
 
 <SectionBlock id="contact" title="Contact">
