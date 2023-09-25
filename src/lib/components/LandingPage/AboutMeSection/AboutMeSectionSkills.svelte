@@ -1,5 +1,5 @@
 <div>
-	<h4>Skills & Experience</h4>
+	<h3>Skills & Experience</h3>
 
 	<div class="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-3 md:gap-6 mb-10">
 		<div class="skills-grid-cell">

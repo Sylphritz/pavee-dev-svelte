@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<h4>Certifications</h4>
+	<h3>Certifications</h3>
 
 	<div class="flex flex-column gap-6">
 		<div
