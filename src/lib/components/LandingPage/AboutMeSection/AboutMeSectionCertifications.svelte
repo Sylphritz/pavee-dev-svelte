@@ -25,7 +25,9 @@
 			<div class="flex-none w-1/3 hidden md:block">
 				<img
 					src="/images/vuejs-cert.jpg"
-					class="object-contain"
+					class="object-contain w-full"
+					width="1000"
+					height="700"
 					alt="Official Vue.js Certification"
 				/>
 			</div>
