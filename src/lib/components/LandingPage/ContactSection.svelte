@@ -26,7 +26,7 @@
 			target="_blank"
 			aria-label="Visit my Linkedin profile page"><LinkedinIcon /></a
 		>
-		<a href="mailto:pudomkarnpaisarn@gmail.com" target="_blank" aria-label="Contact me via email"
+		<a href="mailto:contact@pavee.dev" target="_blank" aria-label="Contact me via email"
 			><MailIcon /></a
 		>
 	</div>
