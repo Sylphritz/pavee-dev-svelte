@@ -23,6 +23,7 @@
 		tags={['SvelteKit', 'TypeScript', 'SCSS', 'TailwindCSS', 'Vitest']}
 	>
 		It's this website! This personal site was made with SvelteKit, utilizing its ability to generate
-		static pages to reduce the load time. The source code is available on Github.
+		static pages to reduce the load time. Fully responsive and SEO-optimized. The source code is
+		available on Github.
 	</WorkSectionBlock>
 </SectionBlock>
