@@ -13,12 +13,22 @@
 		looking to recruit me, I'm also open to the idea of moving abroad for work!
 	</p>
 	<div class="social-icons flex flex-row flex-wrap gap-3">
-		<a href="https://github.com/Sylphritz" target="_blank"><GithubIcon /></a>
-		<a href="https://twitter.com/PaveeDev" target="_blank"><TwitterXIcon /></a>
-		<a href="https://www.linkedin.com/in/pavee-udomkarnpaisarn-64957437/" target="_blank"
-			><LinkedinIcon /></a
+		<a href="https://github.com/Sylphritz" target="_blank" aria-label="Visit my Github profile page"
+			><GithubIcon /></a
 		>
-		<a href="mailto:pudomkarnpaisarn@gmail.com" target="_blank"><MailIcon /></a>
+		<a
+			href="https://twitter.com/PaveeDev"
+			target="_blank"
+			aria-label="Visit my TwitterX profile page"><TwitterXIcon /></a
+		>
+		<a
+			href="https://www.linkedin.com/in/pavee-udomkarnpaisarn-64957437/"
+			target="_blank"
+			aria-label="Visit my Linkedin profile page"><LinkedinIcon /></a
+		>
+		<a href="mailto:pudomkarnpaisarn@gmail.com" target="_blank" aria-label="Contact me via email"
+			><MailIcon /></a
+		>
 	</div>
 </SectionBlock>
 
