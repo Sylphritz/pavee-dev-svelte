@@ -11,13 +11,14 @@
 <div class="flex flex-row gap-6 flex-wrap mb-10">
 	<div class="basis-auto md:basis-1/2 flex-grow">
 		<p>
-			Hi, I'm <strong>Pavee Udomkarnpaisarn</strong> from Thailand. I'm a front-end developer with {yearsOfExperience}
+			Hi, I'm <strong>Pavee Udomkarnpaisarn</strong> from Thailand. I'm a front-end developer with
+			over {yearsOfExperience}
 			years of development experience (and counting!). I'm specialized in
 			<strong>Vue.js application development</strong>.
 		</p>
 		<p>
-			I also dabble in other front-end frameworks such as Svelte and Astro (this site was built with
-			Astro!) and am open to learn more about them as I work.
+			I also dabble in other front-end frameworks such as Astro and Svelte (this site was built with
+			SvelteKit!) and am open to learn more about them as I work.
 		</p>
 	</div>
 	<div class="flex-shrink-0 flex-grow basis-auto md:basis-1/3 p-6 bg-red-600/20">
