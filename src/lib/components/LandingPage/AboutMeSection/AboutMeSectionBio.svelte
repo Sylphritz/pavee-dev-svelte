@@ -29,10 +29,6 @@
 			url="https://www.linkedin.com/in/pavee-udomkarnpaisarn-64957437/"
 			icon={LinkedinIcon}
 		/>
-		<SocialMediaLink
-			text="pudomkarnpaisarn@gmail.com"
-			url="mailto:pudomkarnpaisarn@gmail.com"
-			icon={MailIcon}
-		/>
+		<SocialMediaLink text="contact@pavee.dev" url="mailto:contact@pavee.dev" icon={MailIcon} />
 	</div>
 </div>
