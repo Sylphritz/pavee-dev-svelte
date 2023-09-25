@@ -39,7 +39,7 @@
 		@apply relative py-6 mb-3 flex flex-col-reverse md:flex-row gap-6;
 
 		&::after {
-			@apply absolute left-1/2 -translate-x-1/2 bottom-0 h-1 -mb-px w-1/2 bg-gradient-to-r from-transparent via-red-500 to-transparent pointer-events-none;
+			@apply absolute left-1/2 -translate-x-1/2 bottom-0 h-1 -mb-px w-1/2 bg-gradient-to-r from-transparent via-red-500 to-transparent pointer-events-none last:hidden;
 
 			content: '';
 		}

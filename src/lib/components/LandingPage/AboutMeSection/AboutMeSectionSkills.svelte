@@ -19,6 +19,7 @@
 				<li>TailwindCSS</li>
 				<li>Svelte, SvelteKit</li>
 				<li>Astro</li>
+				<li>Jest, Vitest</li>
 			</ul>
 		</div>
 		<div class="skills-grid-cell">
