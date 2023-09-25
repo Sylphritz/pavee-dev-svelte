@@ -19,8 +19,8 @@
 	<WorkSectionBlock
 		title="Pavee.dev Personal Site"
 		githubUrl="https://github.com/Sylphritz/pavee-dev-svelte"
-		imageUrl="/images/portfolio-site.jpg"
-		tags={['SvelteKit', 'TypeScript', 'SCSS', 'TailwindCSS', 'Vitest']}
+		imageUrl="/images/portfolio-site.png"
+		tags={['SvelteKit', 'SSG', 'TypeScript', 'SCSS', 'TailwindCSS', 'Vitest']}
 	>
 		It's this website! This personal site was made with SvelteKit, utilizing its ability to generate
 		static pages to reduce the load time. Fully responsive and SEO-optimized. The source code is
