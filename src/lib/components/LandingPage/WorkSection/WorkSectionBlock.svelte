@@ -30,7 +30,7 @@
 		<TagList {tags} />
 	</div>
 	<div class="basis-1/2 flex-none overflow-hidden">
-		<img src={imageUrl} class="object-contain" alt={title} />
+		<img src={imageUrl} class="object-contain w-full" alt={title} />
 	</div>
 </div>
 
