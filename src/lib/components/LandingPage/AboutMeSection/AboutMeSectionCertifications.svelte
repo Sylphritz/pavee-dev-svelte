@@ -1,16 +1,16 @@
 <script>
-	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon/ExternalLinkIcon.svelte'
+	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon.svelte'
 </script>
 
 <div>
-	<h4>Certifications</h4>
+	<h3>Certifications</h3>
 
 	<div class="flex flex-column gap-6">
 		<div
 			class="cert-block w-full p-4 flex flex-row justify-between bg-gradient-to-b from-red-500/20 to-red-500/10 gap-6"
 		>
 			<div class="flex-grow">
-				<h5>Certified Vue.js Developer</h5>
+				<h4>Certified Vue.js Developer</h4>
 				<p class="mb-6">
 					One of the first people to become an officially certified Vue.js developer through a
 					series of proctored exams crafted by Vue.js experts and signed by Evan You, the creator of
@@ -35,8 +35,8 @@
 
 <style lang="scss">
 	.cert-block {
-		h5 {
-			@apply font-normal uppercase tracking-widest;
+		h4 {
+			@apply font-normal uppercase tracking-widest text-2xl;
 		}
 	}
 </style>

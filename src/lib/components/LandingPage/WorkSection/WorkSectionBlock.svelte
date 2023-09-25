@@ -1,6 +1,6 @@
 <script lang="ts">
-	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon/ExternalLinkIcon.svelte'
-	import TagList from '$lib/components/Common/TagList/TagList.svelte'
+	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon.svelte'
+	import TagList from '$lib/components/Common/TagList.svelte'
 
 	export let title: string
 	export let demoUrl: string | null = null

@@ -6,9 +6,9 @@
 
 	import { page } from '$app/stores'
 
-	import BodyWrapper from '$lib/components/Layout/BodyWrapper/BodyWrapper.svelte'
-	import Header from '$lib/components/Layout/Header/Header.svelte'
-	import Footer from '$lib/components/Layout/Footer/Footer.svelte'
+	import BodyWrapper from '$lib/components/Layout/BodyWrapper.svelte'
+	import Header from '$lib/components/Layout/Header.svelte'
+	import Footer from '$lib/components/Layout/Footer.svelte'
 
 	const yearsOfExperience = new Date().getFullYear() - 2014 - 1
 

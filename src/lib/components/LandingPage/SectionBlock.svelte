@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SectionBlockTitle from './SectionBlockTitle/SectionBlockTitle.svelte'
+	import SectionBlockTitle from './SectionBlock/SectionBlockTitle.svelte'
 
 	export let title: string
 	export let id: string | null = null

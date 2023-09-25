@@ -1,6 +1,6 @@
 <script>
-	import SectionBlock from '../SectionBlock/SectionBlock.svelte'
-	import WorkSectionBlock from './WorkSectionBlock/WorkSectionBlock.svelte'
+	import SectionBlock from './SectionBlock.svelte'
+	import WorkSectionBlock from './WorkSection/WorkSectionBlock.svelte'
 </script>
 
 <SectionBlock id="my-work" title="My Work">
