@@ -22,7 +22,7 @@
 				>
 			{/if}
 			{#if githubUrl}
-				<a href={demoUrl} target="_blank" class="block mb-2 text-lg font-bold"
+				<a href={githubUrl} target="_blank" class="block mb-2 text-lg font-bold"
 					>See on Github <ExternalLinkIcon className="-mt-1 text-sm" /></a
 				>
 			{/if}
