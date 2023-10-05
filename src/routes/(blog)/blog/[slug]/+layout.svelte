@@ -16,19 +16,6 @@
 	})
 </script>
 
-<svelte:head>
-	{#if $page.data.title}
-		<title>{$page.data.title} - Pavee.dev</title>
-	{:else}
-		<title
-			>Pavee Udomkarnpaisarn | Certified Vue.js Developer | Front-end/Full-stack Developer -
-			Pavee.dev</title
-		>
-	{/if}
-	<meta name="author" content="Pavee Udomkarnpaisarn" />
-	<meta name="description" content={$page.data.metaDescription} />
-</svelte:head>
-
 <div class="flex flex-row">
 	<div class="blog-post-body flex-auto mx-auto basis-2/3 lg:pr-5">
 		<h1 class="mb-1">{$page.data.title}</h1>

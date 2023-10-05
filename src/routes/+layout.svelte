@@ -26,7 +26,7 @@
 		>
 	{/if}
 	<meta name="author" content={author} />
-	<meta name="description" content={description} />
+	<meta name="description" content={$page.data.metaDescription || description} />
 </svelte:head>
 
 <main>
