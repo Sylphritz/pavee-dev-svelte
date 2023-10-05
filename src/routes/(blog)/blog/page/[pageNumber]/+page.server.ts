@@ -13,3 +13,5 @@ export const load: PageServerLoad = async ({ params }) => {
 		...(await getAllPosts(dataParams))
 	}
 }
+
+export const prerender = false
