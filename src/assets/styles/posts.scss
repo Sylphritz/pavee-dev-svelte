@@ -1,0 +1,17 @@
+.blog-post-body {
+  ul {
+    @apply relative ml-6 mb-3;
+
+    li {
+      &::before {
+        @apply absolute -left-4;
+
+        content: '●';
+      }
+    }
+  }
+
+  code {
+    @apply block mb-6;
+  }
+}

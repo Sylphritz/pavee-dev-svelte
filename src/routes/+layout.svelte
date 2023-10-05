@@ -17,7 +17,14 @@
 </script>
 
 <svelte:head>
-	<title>{$page.data.title}</title>
+	{#if $page.data.title}
+		<title>{$page.data.title} - Pavee.dev</title>
+	{:else}
+		<title
+			>Pavee Udomkarnpaisarn | Certified Vue.js Developer | Front-end/Full-stack Developer -
+			Pavee.dev</title
+		>
+	{/if}
 	<meta name="author" content={author} />
 	<meta name="description" content={description} />
 </svelte:head>
