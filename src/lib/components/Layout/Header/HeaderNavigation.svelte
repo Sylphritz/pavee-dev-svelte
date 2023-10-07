@@ -1,6 +1,6 @@
 <nav>
 	<ul class="flex flex-row gap-3">
-		<li><a href="/#my-work">My Work</a></li>
+		<li><a href="/#my-work">Showcase</a></li>
 		<li><a href="/blog">Blog</a></li>
 		<li><a href="/#contact">Contact</a></li>
 	</ul>

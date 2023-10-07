@@ -1,4 +1,5 @@
 <script lang="ts">
+	import ExternalLinkIcon from '$lib/components/Common/Icons/ExternalLinkIcon.svelte'
 	import GithubIcon from '$lib/components/Common/Icons/GithubIcon.svelte'
 	import LinkedinIcon from '$lib/components/Common/Icons/LinkedinIcon.svelte'
 	import MailIcon from '$lib/components/Common/Icons/MailIcon.svelte'
@@ -17,8 +18,18 @@
 			<strong>Vue.js application development</strong>.
 		</p>
 		<p>
-			I also dabble in other front-end frameworks such as Astro and Svelte (this site was built with
-			SvelteKit!) and am open to learn more about them as I work.
+			I also dabble in other front-end frameworks such as <strong>Astro</strong> and
+			<strong>Svelte</strong> (this site was built with SvelteKit!) and am open to learn more about them
+			as I work.
+		</p>
+		<p>
+			<a
+				href="https://www.linkedin.com/in/pavee-udomkarnpaisarn-64957437/"
+				target="_blank"
+				class="text-lg"
+			>
+				See my work experience on Linkedin <ExternalLinkIcon className="-mt-3" /></a
+			>
 		</p>
 	</div>
 	<div class="flex-shrink-0 flex-grow basis-auto md:basis-1/3 p-6 bg-red-600/20">

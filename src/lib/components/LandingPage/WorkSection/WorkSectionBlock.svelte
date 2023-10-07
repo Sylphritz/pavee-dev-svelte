@@ -6,15 +6,15 @@
 	export let demoUrl: string | null = null
 	export let githubUrl: string | null = null
 	export let tags: string[] = []
-	export let imageUrl: string
+	export let imageUrls: string[]
 </script>
 
 <div class="work-showcase-block">
 	<div class="flex-grow">
 		<h3>{title}</h3>
-		<p class="mb-3">
+		<div class="mb-3">
 			<slot />
-		</p>
+		</div>
 		<div class="mb-6">
 			{#if demoUrl}
 				<a href={demoUrl} target="_blank" class="block mb-2 text-lg font-bold"
@@ -29,8 +29,10 @@
 		</div>
 		<TagList {tags} />
 	</div>
-	<div class="basis-1/2 flex-none overflow-hidden">
-		<img src={imageUrl} class="object-contain" width="600" height="400" alt={title} />
+	<div class="basis-2/5 flex-none overflow-hidden">
+		{#each imageUrls as url}
+			<img src={url} class="object-contain mb-3 last:m-0" width="600" height="400" alt={title} />
+		{/each}
 	</div>
 </div>
 
