@@ -25,10 +25,10 @@
 		<slot />
 	</div>
 	<div class="flex-none basis-1/3 hidden lg:block p-3">
-		<div class="text-xl font-bold mb-3">Latest Posts</div>
+		<div class="text-xl font-bold mb-4">Latest Posts</div>
 		{#each data.latestPosts as post}
-			<div class="mb-3">
-				<a href="/blog/{post.slug}" class="block">{post.title}</a>
+			<div class="mb-4">
+				<a href="/blog/{post.slug}" class="block font-bold">{post.title}</a>
 				<div>{post.metaDescription}</div>
 			</div>
 		{/each}
