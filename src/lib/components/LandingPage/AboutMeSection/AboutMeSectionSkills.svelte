@@ -50,7 +50,6 @@
 				<div class="flex-auto bg-slate-700/30 p-3">
 					<div class="text-lg font-bold">Node.js</div>
 					<ul>
-						<li>Node.js</li>
 						<li>Express.js</li>
 						<li>Webpack, Vite</li>
 						<li>NPM, Yarn, PNPM</li>

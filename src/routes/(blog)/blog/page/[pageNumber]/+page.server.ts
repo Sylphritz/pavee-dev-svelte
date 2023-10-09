@@ -9,9 +9,9 @@ export const load: PageServerLoad = async ({ params }) => {
 	}
 
 	return {
-		title: 'Posts',
+		title: `Posts | Page ${dataParams.page}`,
 		...(await getAllPosts(dataParams))
 	}
 }
 
-export const prerender = false
+export const prerender = 'auto'

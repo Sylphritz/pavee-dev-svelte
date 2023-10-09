@@ -3,8 +3,8 @@
 
 	export let pagination: Pagination
 
-	const totalPages = Math.ceil(pagination.total / pagination.perPage) || 1
-	const previousPageUrl = pagination.page - 1 <= 1 ? '/blog' : `/blog/page/${pagination.page - 1}`
+	$: totalPages = Math.ceil(pagination.total / pagination.perPage) || 1
+	$: previousPageUrl = pagination.page - 1 <= 1 ? '/blog' : `/blog/page/${pagination.page - 1}`
 </script>
 
 <div class="flex flex-row justify-center gap-3">
