@@ -60,3 +60,7 @@ b,
 strong {
   @apply text-white font-bold shadow;
 }
+
+.pinned {
+  @apply bg-slate-950/80 -mx-3 px-3 backdrop-blur-lg;
+}
