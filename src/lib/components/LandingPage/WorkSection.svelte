@@ -11,6 +11,7 @@
 		tags={[
 			'Vue.js',
 			'Nuxt.js',
+			'Composition API',
 			'TypeScript',
 			'TailwindCSS',
 			'SASS/SCSS',
@@ -49,6 +50,49 @@
 					<li><b>DOMPurify</b> - sanitizes DOM elements</li>
 				</ul>
 			</li>
+		</ul>
+	</WorkSectionBlock>
+	<WorkSectionBlock
+		title="Vue.js Music Player"
+		demoUrl="https://myujikku.netlify.app/"
+		githubUrl="https://github.com/Sylphritz/music-player"
+		imageUrls={['/images/music-player-01.jpg', '/images/music-player-02.jpg']}
+		tags={[
+			'Vue.js',
+			'Options API',
+			'TypeScript',
+			'TailwindCSS',
+			'SASS/SCSS',
+			'Pinia',
+			'Vee-Validate',
+			'Howler',
+			'Vitest',
+			'Firebase',
+			'Netlify'
+		]}
+	>
+		<p class="mb-4">
+			A <strong>Vue.js application</strong> that lets you create your account, upload songs onto it,
+			and share them with other users. The app uses Firebase as the main back-end service for dealing
+			with user authentication, file storage, and data.
+		</p>
+
+		<ul>
+			<li>
+				<b>Framework:</b> Vue.js
+				<ul>
+					<li>Options API</li>
+					<li>Vue Router</li>
+					<li>Pinia</li>
+					<li>Vee-Validate</li>
+				</ul>
+			</li>
+			<li><b>Styling:</b> SASS/SCSS, TailwindCSS, Google Fonts</li>
+			<li><b>Authentication:</b> Firebase Authentication</li>
+			<li><b>Database:</b> Firebase Firestore</li>
+			<li><b>Data storage:</b> Firebase Storage</li>
+			<li><b>Hosting:</b> Netlify</li>
+			<li><b>Unit testing:</b> Vitest</li>
 		</ul>
 	</WorkSectionBlock>
 	<WorkSectionBlock
