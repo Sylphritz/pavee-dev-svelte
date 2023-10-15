@@ -54,6 +54,12 @@
 						<li>Webpack, Vite</li>
 						<li>NPM, Yarn, PNPM</li>
 					</ul>
+					<div class="text-lg font-bold">Python</div>
+					<ul>
+						<li>Data Science</li>
+						<li>Data Visualization</li>
+						<li>Machine Learning</li>
+					</ul>
 				</div>
 				<div class="flex-auto bg-slate-700/30 p-3">
 					<div class="text-lg font-bold">Cloud Services</div>
@@ -61,6 +67,7 @@
 						<li>Cloudflare: Pages, Workers, R2, D1</li>
 						<li>Firebase</li>
 						<li>Supabase</li>
+						<li>Google Cloud</li>
 					</ul>
 				</div>
 				<div class="flex-auto bg-slate-700/30 p-3">
@@ -95,10 +102,6 @@
 					<div class="text-lg font-bold">Other Skills</div>
 					<ul>
 						<li>Agile Development Environment</li>
-						<li>Python</li>
-						<li>Data Science</li>
-						<li>Data Visualization</li>
-						<li>Machine Learning</li>
 					</ul>
 				</div>
 			</div>
