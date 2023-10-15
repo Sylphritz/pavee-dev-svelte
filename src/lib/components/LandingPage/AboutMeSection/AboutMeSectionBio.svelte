@@ -19,8 +19,8 @@
 		</p>
 		<p>
 			I also dabble in other front-end frameworks such as <strong>Astro</strong> and
-			<strong>Svelte</strong> (this site was built with SvelteKit!) and am open to learn more about them
-			as I work.
+			<strong>Svelte</strong> (this site was built with SvelteKit!) and have an interest in back-end
+			development and is always open to learning new technologies.
 		</p>
 		<p>
 			<a
